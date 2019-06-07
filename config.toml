@@ -19,7 +19,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [params]
     # Meta
     title = "SFB1315 open results gallery"
-    subtitle = "Figures extracted from publication and preprints, enhanced with additional information and links"
+    subtitle = "Figures extracted from publication and preprints, enhanced with additional information and links. <br>  <a href = 'notimplemented.html'> Click here </a> to login and see the private gallery of unpublished work."
     author = "Julien Colomb, Matthew Larkum"
     description = ""
     keywords = "Hugo, Hugo theme, grid theme, portfolio, bookmarks, collection, contacts"
