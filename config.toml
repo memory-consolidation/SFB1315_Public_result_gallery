@@ -4,7 +4,7 @@ relativeURLs = "true"
 uglyURLs = "true"
 
 languageCode = "en-us"
-title = "Repositore of smart experimental results"
+title = "SFB1315 open results gallerie (publication and preprints)"
 theme = "hugrid"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
@@ -12,14 +12,14 @@ googleAnalytics = ""
 contentdir = "content"
 datadir = "data"
 layoutdir = "layouts"
-publishdir = "public/Website_all"
+publishdir = "public"
 
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
     # Meta
-    title = "Smart experimental results"
-    subtitle = "visualise the latest results from the lab"
+    title = "SFB1315 open results gallery"
+    subtitle = "Figures extracted from publication and preprints, enhanced with additional information and links"
     author = "Julien Colomb, Matthew Larkum"
     description = ""
     keywords = "Hugo, Hugo theme, grid theme, portfolio, bookmarks, collection, contacts"
@@ -28,7 +28,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     bodybgcolor = "#f9f9f9"
 
     # Preview container button text
-    buttontext = "figure in context"
+    buttontext = "Link to publication"
 
     # Footer text
     footertext = "Made by [Codrops](http://tympanus.net/codrops/2013/03/19/thumbnail-grid-with-expanding-preview/), [Hugo](http://gohugo.io) and [me](https://github.com/aerohub)"
