@@ -22,24 +22,27 @@ allresults$image [allresults$url %in% problematicpubli] = "../../images/copyrigh
 lit_results = allresults [allresults$url %in% problematicpubli,]
 
 a = image_read(paste0("static/images/copyright.png"))
-for (i in c(1:nrow(lit_results))) {
-  headers = lit_results [i,]
-  ## entered variables
-  
-  title1 = lit_results$Title [i]
-  status1 = lit_results$status[i]
-  thumbpath = lit_results$thumb[i]
-  shortname = strtrim(gsub("\\s", "_", title1) , 27)
-  
-  thumb = makethumbnail(theimage = a,
-                        status = status1,
-                        title = shortname)
-  image_write(
-    thumb,
-    path = paste0("static/hall-of-results_data/Figures/", thumbpath),
-    format = "png"
-  )
+if (nrow(lit_results)> 0){
+  for (i in c(1:nrow(lit_results))) {
+    headers = lit_results [i,]
+    ## entered variables
+    
+    title1 = lit_results$Title [i]
+    status1 = lit_results$status[i]
+    thumbpath = lit_results$thumb[i]
+    shortname = strtrim(gsub("\\s", "_", title1) , 27)
+    
+    thumb = makethumbnail(theimage = a,
+                          status = status1,
+                          title = shortname)
+    image_write(
+      thumb,
+      path = paste0("static/hall-of-results_data/Figures/", thumbpath),
+      format = "png"
+    )
+  }
 }
+
 
 write_items_toml()
 
