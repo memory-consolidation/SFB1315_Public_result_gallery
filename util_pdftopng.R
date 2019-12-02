@@ -58,6 +58,7 @@ for ( i in c(1:length(allresults))){
 }
 
 ## update all thumbnails
+
 allresults <- list.files(
   path = "static/hall-of-results_data",
   full.names = TRUE,
@@ -74,14 +75,15 @@ for (i in c(1:length(allresults))) {
   url = headers$url
   imagepath = headers$image
   thumbpath = headers$thumb
-  shortname = strtrim(gsub("\\s", "_", title1) , 27)
+  shortname = strtrim(gsub("\\s", "_", title1) , 35)
   #library (magick)
   #source("functions.r")
   
   a = image_read(paste0("static/hall-of-results_data/Figures/", imagepath))
   thumb = makethumbnail(theimage = a,
                         status = status1,
-                        title = shortname)
+                        title = shortname,
+                        size_thumb =400)
   image_write(
     thumb,
     path = paste0("static/hall-of-results_data/Figures/", thumbpath),
