@@ -18,8 +18,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
     # Meta
-    title = "The SFB1315 open smartfigure gallery"
-    subtitle = "Prototype version "
+    title = "The SFB1315 open figure gallery"
+    subtitle = "Prototype: figures are not smart here"
     author = "Julien Colomb, Matthew Larkum"
     description = ""
     keywords = "Hugo, Hugo theme, grid theme, portfolio, bookmarks, collection, contacts"
