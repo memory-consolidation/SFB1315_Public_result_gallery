@@ -19,7 +19,7 @@
  thumb = "hall-of-results_data/Figures/Network-Specific_Synchroniz/Network-Specific_Synchroniz_nail.png"
  alt = "something went wrong"
  description = "Slow-wave rhythms characteristic of deep sleep can be found across various brain regions in vertebrates. Here, we discover compound delta oscillations in the sleep-regulating R5 network of Drosophila. We find that the power of these slow-wave oscillations increases with sleep need. Optical multi-unit voltage recordings reveal that single R5 neurons get synchronized by activating circadian input pathways. We show that this synchronization depends on NMDA receptor (NMDAR) coincidence detector function. Genetically targeting the coincidence detector function of NMDARs in R5, abolished network-specific compound slow-wave oscillations. It also disrupted sleep and facilitated light-induced wakening, establishing a role for slow-wave oscillations in regulating sleep and sensory gating. We therefore propose that the synchronization-based increase in oscillatory power likely represents an evolutionarily conserved, potentially “optimal,” strategy for constructing sleep-regulating sensory gates."
- url = "10.1016/j.cub.2019.08.070"
+ url = "https://doi.org/10.1016/j.cub.2019.08.070"
 [[items]]
  title = "From episodic to semantic memory: A computational model"
  image = "hall-of-results_data/Figures/From_episodic_to_semantic_m1/From_episodic_to_semantic_m1.png"
@@ -33,4 +33,4 @@
  thumb = "hall-of-results_data/Figures/Inhibition_within_a_premoto/Inhibition_within_a_premoto_nail.png"
  alt = "something went wrong"
  description = "Zebra finches respond to calls with a stereotyped latency. a) An example bird presented with call playbacks at a rate of one per second (grey) responds with calls (blue). <br> b) The zebra finch vocal-motor pathway. The premotor nucleus HVC receives auditory inputs and drives the timing of vocalizations via the descending vocal-motor pathway (blue). <br> c) Effects of bilateral disinhibition of HVC on call response timing. After blocking inhibitory transmission in HVC with bilateral infusion of GABAA receptor antagonist, gabazine, call response latencies are significantly shorter (orange) and more likely to overlap with call playbacks than under control conditions (blue, from (a)). <br> d) Call related activity of HVC neurons. Example traces of four intracellular recordings from HVC neurons aligned to onset of call production. From top to bottom: the recorded traces were obtained from an interneuron (red), two different premotor neurons (green & blue), and a premotor neuron recorded after local application of gabazine (orange). Interneurons increased their firing rate prior to calls, while premotor neurons fired temporally precise bursts around call onset, but were silent when birds are not vocalizing."
- url = "none"
+ url = "https://doi.org/10.1038/s41467-019-13938-0"
